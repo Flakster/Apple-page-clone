@@ -1,0 +1,36 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  height: 86vh;
+  background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-position: -4vw -117vh;
+  background-repeat: no-repeat;
+  background-size: 105vw 200vh;
+}
+
+.nav-bar {
+  position: relative;
+  top:15vh;
+  width:70%;
+  height: 5vh;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,.7);
+  border-radius: 3px;
+}
+
+.header-menu {
+  display:flex;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-item {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color:white;
+  list-style-type: none;
+}
