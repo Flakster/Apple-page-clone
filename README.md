@@ -1,2 +1,2 @@
 # Apple-page-clone
-Project consists in replicate an old version of the Apple home page
+Project consists in replicate an old version of the Apple home page. More details soon...
