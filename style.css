@@ -9,11 +9,10 @@ body{
 
 .main-container {
   width:1440px;
-  height: 83vh;
+  height: 540px;
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
-  background-position: -4vw -117vh;
-  background-repeat: no-repeat;
-  background-size: 105vw 200vh;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 .nav-bar {
@@ -43,23 +42,23 @@ body{
   border: 1px solid rgb(112, 109, 109);
 }
 
-.header-menu >:nth-child(1) {background-position: -25px 0 ;}
+/* .header-menu :nth-child(1) {background-position: -25px 0 ;} */
 
-.header-menu >:nth-child(2) {background-position: -20px -30px;}
+.header-menu :nth-child(2) {background-position: -20px -30px;}
 
-.header-menu >:nth-child(3) {background-position: -20px -60px;}
+.header-menu :nth-child(3) {background-position: -20px -60px;}
 
-.header-menu >:nth-child(4) {background-position: -20px -90px;}
+.header-menu :nth-child(4) {background-position: -20px -90px;}
 
-.header-menu >:nth-child(5) {background-position: -20px -120px;}
+.header-menu :nth-child(5) {background-position: -20px -120px;}
 
-.header-menu >:nth-child(6) {background-position: -20px -150px;}
+.header-menu :nth-child(6) {background-position: -20px -150px;}
 
-.header-menu >:nth-child(7) {background-position: -20px -180px;}
+.header-menu :nth-child(7) {background-position: -20px -180px;}
 
-.header-menu >:nth-child(8) {background-position: -20px -210px;}
+.header-menu :nth-child(8) {background-position: -20px -210px;}
 
-.header-menu >:nth-child(9) {background-position: -20px -240px;}
+.header-menu :nth-child(9) {background-position: -20px -240px;}
 
 .main-header {
   position: absolute;
@@ -88,8 +87,7 @@ body{
 
 .lower-image-section {
   display: flex;
-  width: 1440px;
-  height: 10vh;
+  width: 1456px;
 }
 
 .image-link {
@@ -101,6 +99,6 @@ body{
 }
 
 .image-link img {
-  width: 310px;
+  width: 364px;
   height: 200px;
 }
