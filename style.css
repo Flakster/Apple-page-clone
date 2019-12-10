@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
 
 .main-container {
-  height: 86vh;
+  width:1440px;
+  height: 83vh;
   background-image: url("https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
   background-position: -4vw -117vh;
   background-repeat: no-repeat;
@@ -14,23 +18,89 @@
 
 .nav-bar {
   position: relative;
-  top:15vh;
-  width:70%;
-  height: 5vh;
+  top:14vh;
+  width:72%;
+  height:35px;
   margin: 0 auto;
-  background-color: rgba(0,0,0,.7);
-  border-radius: 3px;
+  background-color: rgba(88, 86, 86, 0.7);
 }
 
 .header-menu {
   display:flex;
+  flex-direction: row;
   height: 100%;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
+  border-radius: 4px;
 }
 
 .menu-item {
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  color:white;
+  flex:1;
+  color: rgba(0,0,0,0);
   list-style-type: none;
+  background-image: url("https://web.archive.org/web/20140301005559im_/http://images.apple.com/global/nav/images/globalnav_text.svg");
+  background-repeat: no-repeat;
+  border: 1px solid rgb(112, 109, 109);
+}
+
+.header-menu >:nth-child(1) {background-position: -25px 0 ;}
+
+.header-menu >:nth-child(2) {background-position: -20px -30px;}
+
+.header-menu >:nth-child(3) {background-position: -20px -60px;}
+
+.header-menu >:nth-child(4) {background-position: -20px -90px;}
+
+.header-menu >:nth-child(5) {background-position: -20px -120px;}
+
+.header-menu >:nth-child(6) {background-position: -20px -150px;}
+
+.header-menu >:nth-child(7) {background-position: -20px -180px;}
+
+.header-menu >:nth-child(8) {background-position: -20px -210px;}
+
+.header-menu >:nth-child(9) {background-position: -20px -240px;}
+
+.main-header {
+  position: absolute;
+  top:269px;
+  margin-top: -170px;
+  padding: 50px 0;
+}
+
+.title {
+  width:1440px;
+  height: 104px;
+}
+
+.title >:nth-child(1){
+  display:block;
+  width: 980px;
+  height: 82px;
+  margin: 0 auto;
+}
+.title >:nth-child(1){
+  display:block;
+  width: 980px;
+  height: 82px;
+  margin: 0 auto;
+}
+
+.lower-image-section {
+  display: flex;
+  width: 1440px;
+  height: 10vh;
+}
+
+.image-link {
+  flex: 1;
+  height: 30vh;
+  margin-right: 2px;
+  background-repeat: no-repeat;
+  background-size: 360px 100%;
+}
+
+.image-link img {
+  width: 310px;
+  height: 200px;
 }
