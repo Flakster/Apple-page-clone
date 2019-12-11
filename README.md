@@ -7,7 +7,7 @@ This project consists in replicate an old version of the Apple home page in orde
 
 ## 🏠 [Homepage](https://github.com/Flakster/Apple-page-clone)
 
-## ⭐️ See a live demo [here](https://rawcdn.githack.com/Flakster/Apple-page-clone/e7234dbe6bb19e325583fc55c7236932edf07cab/index.html)
+## ⭐️ See a live demo [here](https://flakster.github.io/Apple-page-clone/)
 
 ## Author
 
