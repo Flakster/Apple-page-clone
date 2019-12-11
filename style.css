@@ -51,6 +51,7 @@ body{
 
 .menu-item:hover {
   cursor: pointer;
+  background-image: linear-gradient(rgb(130,130,130),rgb(120, 120, 120) 20%, rgb(125, 125, 125) 48%, rgb(100, 100, 100) 50%, rgb(120, 120, 120) 90%, rgb(130,130,130));
 }
 
 .header-menu :nth-child(1) {background-position: -25px 2px ;}
@@ -70,6 +71,13 @@ body{
 .header-menu :nth-child(8) {background-position: -20px -208px;}
 
 .header-menu :nth-child(9) {background-position: -20px -238px;}
+
+.search-container {
+  background-color: blue;
+  width: 106px;
+  height: 20px;
+  margin-top:7px
+}
 
 .search-btn {
   width: 50px;
