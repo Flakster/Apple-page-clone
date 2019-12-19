@@ -30,6 +30,6 @@ To get a local copy up and running follow these simple example steps:
 👤 Carlos Santamaría
 
 * Twitter: [@Flakster ](https://twitter.com/Flakster )
-* Github: [@Flakster](https://github.com/https:\/\/github.com\/Flakster)
+* Github: [@Flakster](https://github.com/Flakster)
 
 
