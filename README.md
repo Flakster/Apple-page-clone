@@ -18,6 +18,10 @@ To get a local copy up and running follow these simple example steps:
 
 ## ⭐️ See a live demo [here](https://flakster.github.io/Apple-page-clone/)
 
+## Potential future features
+
+ * Add transition for the animation of the search field
+
 ## 🧐 Validators:
 
     W3C validator for HTML
