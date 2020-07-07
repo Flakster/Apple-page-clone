@@ -1,6 +1,6 @@
 # Apple-page-clone
 
-This project consists in replicate an old version of the Apple home page in order to apply concepts of background images and gradients. Take a close look at the main var background to see how to achieve that cristal look in the buttons
+This project consists in replicate an old version of the Apple home page in order to apply concepts of background images and gradients. Take a close look at the main bar background to see how to achieve that cristal look in the buttons
 
 
 ![screenshot](https://user-images.githubusercontent.com/53324035/70659739-b2ad5a00-1c2e-11ea-8efd-35bc0cf07ef8.png)
